@@ -1,0 +1,9 @@
+<!--pages/shadeGuidance/shadeGuidance.wxml-->
+<view class='root'>
+<view class="{{showShade?'pageShade':'noDisplay'}}" catchtap='cancelAble'>
+<slot name="pageShadeSolt"></slot>
+</view>
+<view class='pageView'>
+<slot  name="pageSolt"></slot>
+</view>
+</view>

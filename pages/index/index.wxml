@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<shadeGuidance show-shade="{{showShade}}" cancel-able="{{true}}" >
+<view slot="pageShadeSolt" style='color:#ffffff'>遮罩布局遮罩布局遮罩布局遮罩布局遮罩布局</view>
+<view class='page' slot="pageSolt">
+这里是页面内容
+<button bindtap='openShade'>开启遮罩图层</button>
+</view>
+</shadeGuidance>
